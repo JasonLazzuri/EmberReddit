@@ -1,1 +1,25 @@
-{{yield}}
+{{#if addNewPost}}
+  <h1>New Post</h1>
+  <div>
+    <form>
+      <div class="form-group">
+        <label for="author">Author</label>
+        {{input value=author id="author"}}
+      </div>
+
+      <div class="form-group">
+        <label for="question">Question</label>
+        {{input value=question id="question"}}
+      </div>
+
+      <div class="form-group">
+        <label for="explanation">Explanation</label>
+        {{input value=explanation id="explanation"}}
+      </div>
+
+      <button {{action 'savePost1'}}>Save</button>
+    </form>
+  </div>
+{{else}}
+  <button {{action 'postFormShow'}}>New Post</button>
+{{/if}}
