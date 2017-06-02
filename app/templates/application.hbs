@@ -1,2 +1,10 @@
-
-{{outlet}}
+<div class= "container">
+  <header class= "jumbotron">
+    <h1>My Own Reddit</h1>
+  </header>
+    {{outlet}}
+  <hr>
+  <footer>
+    {{#link-to 'index'}}Home{{/link-to}}
+  </footer>
+</div>
