@@ -1,0 +1,17 @@
+{
+  "name": "my-own-reddit",
+  "description": "Small description for my-own-reddit goes here",
+  "main": "",
+  "authors": [
+    "JasonLazzuri <jason.Lazzuri@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

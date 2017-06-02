@@ -1,5 +1,14 @@
-# my-own-reddit
+# my-own-reddit Planning
+What pages am I going to need-
+	index- front page that displays the list of reddit type questions
+	question page- the individual question that is first asked. it will display the whole question and then some more explanation about the question in the paragraph below.
 
+	bottom of the question page- form to respond to peoples questions
+
+style-
+	I am going to try to make it look like reddit if I can. If I dont have as much time I think I will use bootstrap and or google materialize to style the page to my liking.
+
+# my-own-reddit
 This README outlines the details of collaborating on this Ember application.
 A short introduction of this app could easily go here.
 
