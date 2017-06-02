@@ -1,0 +1,15 @@
+{ "posts": [{
+    "author": "Jason Lazzuri",
+    "question": "NPM makes no sense to me",
+    "explanation": "Ive made many attempts to get into angular or some other great new framework and every time the instructions involve using NPM to download a bunch of stuff. But what I end up with is 100s of MB of dependencies that aren't required, and a complicated mess of folders etc. Then I have to set up a git repo and something about grunt servers and on and on and on. I miss the days when I could just install WAMP and go. Is there some place that walks through exactly whats going on that doesnt require a masters in Comp Sci just to understand? Thanks in advance."
+
+  }, {
+    "author": "dustinhayes",
+    "question": "What can bower do that npm can't?",
+    "explanation": "Not trying to start a war. I'm genuinely interested. edit: This was not intended to bash on bower or npm. Props to them for creating awesome tools people are clearly passionate about. If you're not familiar with them go check them out. edit: @nth23 wrote a great article about why his team choose to migrate from bower to npm:  I highly suggest giving it a read. I'd lover to see some counter arguments from some bower users."
+  }, {
+    "author": "TheBaconator123",
+    "question": "Why should i choose Ember over Angular 2?",
+    "explanation": "I know, it's a question that is easy to answer as a Ember-fan... But for myself, it's hard to choose... I've worked for a couple of years on a project that isn't single-page (jQuery, PHP)... Now it's time for a new version, with new technologies... I took some basic tutorials for both Angular and Ember, and i still can't choose... Please help me out here :-)"
+  }]
+}

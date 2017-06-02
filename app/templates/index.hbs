@@ -1,0 +1,12 @@
+<h1>Welcome to Reddit</h1>
+
+
+Have a question? Just ask!
+<ul>
+  {{#each model as |post|}}
+    {{post-tile post=post destroyPost="destroyPost"}}
+  {{/each}}
+</ul>
+
+
+{{new-post savePost2="savePost3"}}

@@ -16,6 +16,12 @@ module.exports = function(environment) {
         Date: false
       }
     },
+    firebase: {
+        apiKey: "AIzaSyARIQDu0mwE7EO3EbGngAKDI_bZxDVXTmQ",
+        authDomain: "my-own-reddit.firebaseapp.com",
+        databaseURL: "https://my-own-reddit.firebaseio.com",
+        storageBucket: "my-own-reddit.appspot.com",
+      },
 
     APP: {
       // Here you can pass flags/options to your application instance
