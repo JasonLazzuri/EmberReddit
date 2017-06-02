@@ -1,5 +1,11 @@
 <h2>{{model.question}}</h2>
 <h5>By: {{model.author}}</h5>
 
-{{post-detail post=model destroyPost="destroyPost"}}
+
 {{update-post post=model update="update"}}
+
+
+{{post-detail post=model destroyPost="destroyPost"}}
+
+
+{{new-comment saveComment="saveComment" post=model}}

@@ -3,7 +3,7 @@
 
 <h4>Have a question? Just ask!</h4>
 <ul>
-  {{#each model as |post|}}
+  {{#each model.posts as |post|}}
     {{post-tile post=post}}
   {{/each}}
 </ul>
