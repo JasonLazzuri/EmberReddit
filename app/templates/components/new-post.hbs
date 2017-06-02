@@ -1,25 +1,32 @@
 {{#if addNewPost}}
-  <h1>New Post</h1>
-  <div>
+  <div class="comment-div">
+    <h1>New Post</h1>
     <form>
-      <div class="form-group">
-        <label for="author">Author</label>
-        {{input value=author id="author"}}
+      <div class="form-group row">
+        <label for="author" class="col-2 col-form-label">Author:</label>
+        <div class="col-5">
+          {{input value=author id="author"}}
+        </div>
       </div>
 
-      <div class="form-group">
-        <label for="question">Question</label>
-        {{input value=question id="question"}}
+      <div class="form-group row">
+        <label for="question" class="col-2 col-form-label">Question:</label>
+        <div class="col-5">
+          {{input value=question id="question"}}
+        </div>
       </div>
 
-      <div class="form-group">
-        <label for="explanation">Explanation</label>
-        {{input value=explanation id="explanation"}}
+      <div class="form-group row">
+        <label for="explanation" class="col-2 col-form-label">Explanation:</label>
+          <div class="col-10">
+          {{textarea type="text" value=explanation id="explanation" class="form-control" rows="3"
+                enter="commentSave"}}
+          </div>
       </div>
 
-      <button {{action 'savePost1'}}>Save</button>
+      <button class="btn btn-lg btn-primary"{{action 'savePost1'}}>Save</button>
     </form>
   </div>
 {{else}}
-  <button {{action 'postFormShow'}}>New Post</button>
+  <button class="btn btn-lg btn-primary" {{action 'postFormShow'}}>New Post</button>
 {{/if}}

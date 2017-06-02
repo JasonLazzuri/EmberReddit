@@ -4,15 +4,15 @@
     <form>
       <div class="form-group">
         <label for="author">Author</label>
-        {{input value=author id="author"}}
+        {{input placeholder="Your Name Here" value=author id="author"}}
       </div>
       <div class="form-group">
         <label for="reply">Reply</label>
-        {{input value=reply id="reply"}}
+        {{input placeholder="Your reply Here"value=reply id="reply"}}
       </div>
-      <button {{action 'saveComment'}}>Save</button>
+      <button class="btn btn-lg btn-primary" {{action 'saveComment'}}>Save</button>
     </form>
   </div>
 {{else}}
-  <button {{action 'commentFormShow'}}>New Comment</button>
+  <button class="btn btn-lg btn-primary" {{action 'commentFormShow'}}>New Comment</button>
 {{/if}}

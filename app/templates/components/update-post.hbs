@@ -17,9 +17,9 @@
         {{input value=explanation id="explanation" placeholder=post.explanation}}
       </div>
 
-      <button {{action 'update' post}}>Save</button>
+      <button class="btn btn-lg btn-primary" {{action 'update' post}}>Save</button>
     </form>
   </div>
 {{else}}
-  <button {{action 'updatePostForm'}}>Update</button>
+  <button class="btn btn-lg btn-primary" {{action 'updatePostForm'}}>Update</button>
 {{/if}}

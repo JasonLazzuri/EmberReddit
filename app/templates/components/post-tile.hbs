@@ -1,6 +1,9 @@
 <li>
 
-  {{#link-to 'post' post.id}}{{post.question}}{{/link-to}}
+  {{#link-to 'post' post.id}}
+  <h1>Question:</h1>
 
-  <h5>asked by: {{post.author}}</h5>
+  {{post.question}}{{/link-to}}
+
+  <h3>asked by: {{post.author}}</h3>
 </li>
